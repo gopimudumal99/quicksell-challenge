@@ -1,0 +1,51 @@
+
+.counter{
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .counter>button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border: 1px solid #a54946;
+    background: white;
+    color: #a54946;
+    font-size: 20px;
+    font-weight: bold;
+    cursor:pointer;
+  }
+  
+  .counter>button:first-child{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  .counter>button:last-child{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #a54946;
+    color: white;
+    
+  }
+  
+  .counter>input{
+    width:70px;
+    height:50%;
+    padding:14px 0 14px 0;
+    border: none;
+    text-align: center;
+    border-top:1px solid #a54946;
+    border-bottom: 1px solid #a54946;
+    outline: none;
+    color: #a54946;
+    font-size: 23px;
+    font-weight: bold;
+    background: #f8e9e9;
+  }
+  
+  
+  
