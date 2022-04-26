@@ -41,3 +41,6 @@ Start the server
   npm run dev
 ```
 
+## Screenshots
+
+![c2.png](https://i.postimg.cc/63ts8PqQ/c2.png)
