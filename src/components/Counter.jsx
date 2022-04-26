@@ -3,9 +3,10 @@ import "./Counter.css"
 
 function Counter() {
     const [count, setCount] = useState(1)
-
+    const max = 1000;
+    
  const handlePlusBtn = ()=>{
-   if(count==1000){
+   if(count==max){
     alert('max value is 1000 only')
      return
    }
@@ -13,16 +14,12 @@ function Counter() {
   }
 
  const handleMinusBtn = () =>{
-   if(count<=1){
-     alert('counter not allows less then 1')
-     return
-   }
     setCount(count-1)
   }
 
  const handelCounterValue = (e) =>{
    let number = +( e.target.value)
-   if(number>1000){
+   if(number>max){
      alert('max value is 1000 only')
      return
    }
