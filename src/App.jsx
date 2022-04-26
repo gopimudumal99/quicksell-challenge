@@ -13,6 +13,10 @@ function App() {
   }
 
  const handleMinusBtn = () =>{
+   if(count<1){
+     alert('counter not allows less then 1')
+     return
+   }
     setCount(count-1)
   }
 
